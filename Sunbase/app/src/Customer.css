@@ -1,0 +1,74 @@
+/* Customer.css */
+
+.app {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .add-button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #45a049;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .customer-table th {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .customer-table button {
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .customer-table button:hover {
+    background-color: #0056b3;
+  }
+  
+  .customer-table button + button {
+    margin-left: 5px;
+  }
+  
+  .customer-table input,
+  .customer-table button {
+    margin-bottom: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #007bff;
+    margin-top: 10px;
+    display: block;
+  }
+  
